@@ -1,9 +1,9 @@
 cask "piper" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.3"
-  sha256 arm:   "63e04043a34617b2b821013fdeaf3cb9daa1864bd5600473f49422185c79e81f",
-         intel: "ed280a8eadc6104cf80278f3bc9bf89301e8bbf7b8632e6cec83b6d5b863620c"
+  version "0.1.4"
+  sha256 arm:   "2b18d6f58dcd7082754b6aad8b3acb4dca85fa473511d42e5faea42e3dd512d2",
+         intel: "082e2460a6250e65c8b62f1325afdb61a72c2967210a49d111fe227a0874ae67"
 
   url "https://github.com/Kamest/Piper/releases/download/desktop-v#{version}/Piper-#{version}-mac-#{arch}.dmg"
   name "Piper"
